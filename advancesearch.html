@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="style-adv.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    </head>
+    <body>
+       <div id=tabs >
+            <a class="se" href="index.html">Google Search </a>
+            &nbsp; &nbsp;
+            <a class="se" href="image.html">Images</a>
+
+       </div>
+       <div>
+           <img id="image" src="google-ad.png" alt="">
+       </div>
+       <div id="ad">
+           Advanced Search
+          
+       </div>
+       <hr/>
+      <div id='form'>
+        Find Pages with ...
+
+           
+          
+        <div id="search">
+            <form role="search" action="https://www.google.com/search" method="GET">
+                <div>
+                    all these words: <input id="inp1" class="col-4" type="search" name="as_q">
+                </div> 
+                   
+                <div>
+                    this exact word or phrase: <input id="inp2" class="col-4" type="search" name="as_epq">
+                </div>
+                <div>
+                    any of these words: <input id="inp3" class="col-4" type="search" name="as_oq">
+                </div>
+                <div>
+                    none of these words: <input id="inp4" class="col-4" type="search" name="as_eq">
+                </div>
+                <button id="button">advanced search</button>
+            </form>
+        </div>
+     
+       
+    </body>
+</html>
