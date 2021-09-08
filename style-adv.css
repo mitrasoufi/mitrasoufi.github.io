@@ -54,21 +54,26 @@ hr{
 #inp1 {
     margin-top: 20px;
     margin-left: 98px;
+    width: 170px;
   
 }
 #inp2 {
     margin-top: 20px;
     margin-left: 30px;
+    width: 170px;
   
 }
 #inp3 {
     margin-top: 20px;
     margin-left: 70px;
+    width: 170px;
   
 }
 #inp4 {
     margin-top: 20px;
     margin-left: 60px;
+    width: 170px;
+
   
 }
 #button{
